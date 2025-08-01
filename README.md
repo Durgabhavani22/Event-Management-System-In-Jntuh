@@ -15,7 +15,13 @@ Key Features:
    Event Registration:  
    Users (students) can register for upcoming events directly through the platform. Admins and staff can view all registrations in real-time.
 
-   Event Details: Each event has a detailed page that provides users with important information, including dates, location, and available slots. 
+   Event Details: Each event has a detailed page that provides users with important information, including dates, location, and available slots.
+
+   TechStack:  
+
+   Frontend:HTML,CSS,JS,React
+   Backend:Node js
+   Database:MySQL
 
 
 # Getting Started with Create React App
