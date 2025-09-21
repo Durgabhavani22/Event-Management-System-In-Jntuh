@@ -28,16 +28,16 @@ function Register() {
       });
 
       if (res.data.success) {
-        setMessage("✅ Registered successfully! Redirecting to login...");
+        setMessage("Registered successfully! Redirecting to login...");
         setTimeout(() => {
           navigate("/login");
         }, 1500);
       } else {
-        setMessage("❌ Error: " + (res.data.error || "Unknown error"));
+        setMessage("Error: " + (res.data.error || "Unknown error"));
       }
     } catch (err) {
       console.error("Registration error:", err);
-      setMessage("❌ Server error during registration.");
+      setMessage("Server error during registration.");
     }
   };
 
