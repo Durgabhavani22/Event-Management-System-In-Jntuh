@@ -19,7 +19,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.username || !form.password || !form.role) {
-      setMessage("❗ Please fill in all fields.");
+      setMessage(" Please fill in all fields.");
       return;
     }
 
@@ -41,11 +41,11 @@ function Login() {
           }
         }, 1000);
       } else {
-        setMessage("❌ Invalid credentials or role mismatch.");
+        setMessage("Invalid credentials or role mismatch.");
       }
     } catch (err) {
       console.error(err);
-      setMessage("❌ Server error during login.");
+      setMessage("Server error during login.");
     }
   };
 
